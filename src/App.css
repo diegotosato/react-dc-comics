@@ -24,15 +24,22 @@
     background-color: red;
   } */
 
-  main {
+  /* main {
     height: 288px;
     background-color: blue;
-  }
+  } */
 
   footer {
     height: 480px;
     background-color: gray;
   }
+}
+
+
+/* Generics */
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 
@@ -67,4 +74,48 @@ header .container {
   color: var(--dc-primary);
   text-decoration: underline;
   transition: none;
+}
+
+
+/* Main */
+main {
+  background-color: var(--dc-dark);
+  padding: 3rem 0;
+}
+
+.content h3 {
+  color: white;
+}
+
+.banner {
+  background-color: var(--dc-primary);
+  width: 100%;
+  padding: 3rem 0;
+}
+
+.banner ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+  margin: 0;
+}
+
+.banner ul li {
+  display: flex;
+  align-items: center;
+}
+
+.banner ul li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.icon {
+  width: 40px;
+}
+
+.icon img {
+  max-width: 100%;
 }
