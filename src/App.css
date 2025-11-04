@@ -129,13 +129,18 @@ main {
 .footer-top {
   background-image: url('./assets/img/footer-bg.jpg');
   background-size: cover;
-  padding: 4rem 0;
+}
+
+.footer-top .container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .contacts {
-  width: 40%;
+  width: 30%;
   display: flex;
   flex-wrap: wrap;
+  padding: 4rem 0;
 }
 
 .contacts h5 {
@@ -155,4 +160,12 @@ main {
   font-weight: 100;
   text-decoration: none;
   font-size: 0.8rem;
+}
+
+.ft-logo-bg {
+  width: 50%;
+  background-image: url('./assets/img/dc-logo-bg.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
 }

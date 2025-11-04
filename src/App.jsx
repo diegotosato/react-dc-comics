@@ -129,6 +129,9 @@ function App() {
 
             </div>
 
+            <div className="ft-logo-bg">
+            </div>
+
           </div>
 
         </div>
