@@ -1,3 +1,4 @@
+/* Generics */
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,15 @@
   font-family: "Open Sans", sans-serif;
 }
 
+/* root */
+:root {
+  --dc-dark: #1c1c1c;
+  --dc-primary: #0282f9;
+  --dc-gray: #303030;
+}
+
+
+/* Debug */
 .debug * {
   border: 1px dashed black;
 
@@ -22,4 +32,30 @@
     height: 480px;
     background-color: gray;
   }
+}
+
+
+
+/* Header */
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.nav {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: var(--dc-gray);
 }
