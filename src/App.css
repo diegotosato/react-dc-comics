@@ -109,11 +109,11 @@ main {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 .icon {
-  width: 40px;
+  width: 50px;
 }
 
 .icon img {
