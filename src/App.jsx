@@ -3,6 +3,8 @@ import Header from './contents/Header'
 import Main from './contents/Main'
 import Banner from './contents/Banner'
 
+import socialIcon from './assets/img/footer-facebook.png'
+
 
 function App() {
 
@@ -137,7 +139,19 @@ function App() {
         </div>
 
         <div className="footer-bottom">
-          <div className="container"></div>
+
+          <div className="container">
+
+            <button className="fb-btn">sign-up now!</button>
+
+            <div className="socials">
+              <h5>follow us</h5>
+              <img src={socialIcon} alt="social-image" />
+              <img src={socialIcon} alt="social-image" />
+            </div>
+
+          </div>
+
         </div>
 
       </footer>

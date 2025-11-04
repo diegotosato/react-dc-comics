@@ -169,3 +169,41 @@ main {
   background-position: right;
   background-size: cover;
 }
+
+
+/* Footer-BOTTOM */
+.footer-bottom {
+  background-color: var(--dc-dark-gray);
+  padding: 3rem 0;
+}
+
+.footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fb-btn {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: transparent;
+  border: 1px solid var(--dc-primary);
+  padding: 0.5rem 1rem;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.socials h5 {
+  color: var(--dc-primary);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+}
+
+.socials img {
+  margin-left: 1rem;
+}
