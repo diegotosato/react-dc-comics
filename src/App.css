@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.debug * {
+  border: 1px dashed black;
+
+  header {
+    height: 117px;
+    background-color: red;
+  }
+
+  main {
+    height: 288px;
+    background-color: blue;
+  }
+
+  footer {
+    height: 480px;
+    background-color: gray;
+  }
+}
