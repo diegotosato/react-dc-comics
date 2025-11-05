@@ -34,7 +34,7 @@ export default function Banner() {
                             <div className="icon">
                                 <img src={subscription} alt="icon_image" />
                             </div>
-                            <a href="#">subscription</a>
+                            <a href="#">sub scription</a>
                         </li>
 
                         <li>

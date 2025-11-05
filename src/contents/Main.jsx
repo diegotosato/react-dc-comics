@@ -172,7 +172,7 @@ export default function Main() {
                                         <div className="card rounded-0 border-0 bg-transparent">
                                             <img className="card-img-top" src={item.thumb} alt={item.title} />
                                             <div className="card-body p-0 pt-2">
-                                                <div className="card-title m-0">{item.title}</div>
+                                                <div className="card-title m-0">{item.series}</div>
                                             </div>
                                         </div>
                                     </div>
