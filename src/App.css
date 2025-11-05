@@ -29,10 +29,10 @@
     background-color: blue;
   } */
 
-  footer {
+  /* footer {
     height: 480px;
     background-color: gray;
-  }
+  } */
 }
 
 
@@ -131,11 +131,13 @@ main {
 .footer-top {
   background-image: url('./assets/img/footer-bg.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .footer-top .container {
-  display: flex;
-  justify-content: space-between;
+  background-image: url('./assets/img/dc-logo-bg.png');
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 .contacts {

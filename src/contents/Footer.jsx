@@ -123,9 +123,6 @@ export default function Banner() {
 
                         </div>
 
-                        <div className="ft-logo-bg">
-                        </div>
-
                     </div>
 
                 </div>
