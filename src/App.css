@@ -237,6 +237,7 @@ main {
 .footer-bottom .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .fb-btn {
@@ -414,14 +415,16 @@ main {
     font-size: 0.8rem;
   }
 
-
-
-
   .footer-top .container {
     max-width: 100%;
-    background-image: url('./assets/img/dc-logo-bg.png');
     background-position: center;
-    background-repeat: no-repeat;
+  }
+
+
+  .contacts {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
   }
 }
 
@@ -456,5 +459,22 @@ main {
   .banner ul li {
     flex-direction: row;
     margin: 1rem 0;
+  }
+
+  .contacts {
+    width: 90%;
+  }
+
+
+  .socials h5 {
+    font-size: 1.2rem;
+  }
+
+  .socials a {
+    margin-left: 0.7rem;
+  }
+
+  .socials a img {
+    width: 30px;
   }
 }
