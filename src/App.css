@@ -42,6 +42,29 @@ ul {
   padding: 0;
 }
 
+.card * {
+  border-radius: 0 !important;
+  border-width: 0 !important;
+}
+
+.card-img-top {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  object-fit: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.card-body {
+  position: relative;
+}
+
+.card-title {
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
 
 
 /* Header */
@@ -85,12 +108,6 @@ main {
   background-image: url('./assets/img/jumbotron.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.content {}
-
-.content h3 {
-  color: white;
 }
 
 .banner {

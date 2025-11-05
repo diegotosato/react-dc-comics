@@ -59,7 +59,7 @@ const comics = [
         id: 5,
         title: "Batman #56",
         description: "The Dark Knight's looking to drop both the hammer and sickle on the KGBeast. The Russian super-assassin has gone too far, and Batman will stop at nothing to hunt him down. But is the Dark Knight willing to step into the darkness himself to find justice?",
-        thumb: "https://imgs.search.brave.com/3vP5d3cOVOuC0f6Uhm7CkV_qFk5hGj5rE4jK5I6n7dI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4y/LnBlbmd1aW4uY29t/LmF1L2NvdmVycy9v/cmlnaW5hbC83OTYx/OTQzMTM5OTk4Lmpw/Zw",
+        thumb: "https://imgs.search.brave.com/jgxYlrx442aozemzjqdmCsd9DkIkRollJp1T8sG8TfE/rs:fit:720:1106:1/g:ce/aHR0cHM6Ly9veXN0/ZXIuaWduaW1ncy5j/b20vd29yZHByZXNz/L3N0Zy5pZ24uY29t/LzIwMTgvMTAvU1RM/MDk3MDk1LTcyMHgx/MTA2LmpwZw",
         price: "$3.99",
         series: "Batman",
         sale_date: "2018-10-03",
@@ -162,16 +162,25 @@ export default function Main() {
 
                     <section className="content">
 
-                        <div className="row row-cols-6">
+                        <div className="row row-cols-6 gx-4 gy-5">
 
-                            <div className="col">
-                                <div class="card">
-                                    <img class="card-img-top" src="holder.js/100x180/" alt="Title" />
-                                    <div class="card-body">
-                                        <h4 class="card-title">Title</h4>
+                            {
+                                comics.map(item => (
+
+                                    <div key={item.id} className="col">
+                                        <div className="card rounded-0 border-0 bg-transparent">
+                                            <img className="card-img-top" src={item.thumb} alt={item.title} />
+                                            <div className="card-body p-0 pt-2">
+                                                <div className="card-title m-0">{item.title}</div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
+
+                                ))
+                            }
+
+
+
 
                         </div>
 
