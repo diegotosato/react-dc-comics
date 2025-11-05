@@ -163,7 +163,7 @@ export default function Main() {
 
                     <section className="content">
 
-                        <div className="row row-cols-6 gx-4 gy-5 px-3">
+                        <div className="row row-cols-xxl-6 row-cols-lg-4 row-cols-md-3 row-cols-1 gx-4 gy-5 px-3">
 
                             {
                                 comics.map(item => (
