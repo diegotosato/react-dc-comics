@@ -101,13 +101,20 @@ header .container {
 }
 
 
+/* Jumbotron */
+.jumbotron {
+  width: 100%;
+  height: 400px;
+  background-image: url(./assets/img/jumbotron.jpg);
+  position: relative;
+}
+
+
 /* Main */
 main {
   background-color: var(--dc-dark);
-  padding: 3rem 0;
-  background-image: url('./assets/img/jumbotron.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 .badge {
@@ -117,7 +124,9 @@ main {
   font-size: 1.5rem;
   padding: 0.65rem 1.3rem;
   border-radius: 0;
-  margin-bottom: 2rem;
+  position: absolute;
+  transform: translate(0, 50%);
+  bottom: 0;
 }
 
 .banner {

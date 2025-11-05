@@ -163,8 +163,6 @@ export default function Main() {
 
                     <section className="content">
 
-                        <div className="badge">current series</div>
-
                         <div className="row row-cols-6 gx-4 gy-5 px-3">
 
                             {
