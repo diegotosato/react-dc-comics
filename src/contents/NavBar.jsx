@@ -20,7 +20,7 @@ export default function NavBar() {
             <nav className="nav justify-content-center">
                 {
                     navLinks.map(item => (
-                        <a key={item.id} className="nav-link mx-3" href={item.href}>{item.title}</a>
+                        <a key={item.id} className="nav-link" href={item.href}>{item.title}</a>
                     ))
                 }
             </nav>

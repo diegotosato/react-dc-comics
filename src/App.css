@@ -92,6 +92,7 @@ header .container {
   height: 100%;
   border-bottom: 5px solid transparent;
   padding: 3rem 0;
+  margin: 0 1rem;
 }
 
 .nav-link:hover {
@@ -346,6 +347,15 @@ main {
 
 
 @media screen and (max-width: 992px) {
+  header .container {
+    max-width: 95% !important;
+  }
+
+  .nav-link {
+    padding: 3rem 0;
+    margin: 0 0 0 1rem;
+  }
+
   .jumbotron {
     height: 250px;
   }
@@ -371,6 +381,23 @@ main {
 
 
 @media screen and (max-width: 768px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-link {
+    padding: 0;
+    margin: 0 0 0 1rem;
+  }
+
+  .logo {
+    width: 85px;
+    margin: 1.5rem 0;
+  }
+
+
+
   .banner .container {
     max-width: 90% !important;
     margin: 0 auto;
@@ -386,6 +413,16 @@ main {
   .banner ul li a {
     font-size: 0.8rem;
   }
+
+
+
+
+  .footer-top .container {
+    max-width: 100%;
+    background-image: url('./assets/img/dc-logo-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 
@@ -394,6 +431,10 @@ main {
 
 
 @media screen and (max-width: 576px) {
+  .nav {
+    margin-bottom: 1.5rem;
+  }
+
   .jumbotron {
     height: 200px;
   }
