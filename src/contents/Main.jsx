@@ -160,9 +160,12 @@ export default function Main() {
             <main>
                 <div className="container">
 
+
                     <section className="content">
 
-                        <div className="row row-cols-6 gx-4 gy-5">
+                        <div className="badge">current series</div>
+
+                        <div className="row row-cols-6 gx-4 gy-5 px-3">
 
                             {
                                 comics.map(item => (
@@ -179,10 +182,9 @@ export default function Main() {
                                 ))
                             }
 
-
-
-
                         </div>
+
+                        <button className="btn-load">load more</button>
 
                     </section>
 

@@ -110,10 +110,32 @@ main {
   background-repeat: no-repeat;
 }
 
+.badge {
+  background-color: var(--dc-primary);
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding: 0.65rem 1.3rem;
+  border-radius: 0;
+  margin-bottom: 2rem;
+}
+
 .banner {
   background-color: var(--dc-primary);
   width: 100%;
   padding: 3rem 0;
+}
+
+.btn-load {
+  display: block;
+  background-color: var(--dc-primary);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.5rem 3.5rem;
+  border-radius: 0;
+  font-weight: 700;
+  margin: 0 auto;
 }
 
 .banner ul {
