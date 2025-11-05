@@ -75,7 +75,6 @@ header .container {
   color: var(--dc-primary);
   transition: none;
   border-bottom: 5px solid var(--dc-primary);
-  margin-bottom: -5px;
 }
 
 
@@ -83,7 +82,12 @@ header .container {
 main {
   background-color: var(--dc-dark);
   padding: 3rem 0;
+  background-image: url('./assets/img/jumbotron.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+.content {}
 
 .content h3 {
   color: white;
