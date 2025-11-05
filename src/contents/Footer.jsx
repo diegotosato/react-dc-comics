@@ -135,11 +135,21 @@ export default function Banner() {
 
                         <div className="socials">
                             <h5>follow us</h5>
-                            <img src={facebookIcon} alt="social-image" />
-                            <img src={twitterIcon} alt="social-image" />
-                            <img src={ytIcon} alt="social-image" />
-                            <img src={pinterestIcon} alt="social-image" />
-                            <img src={periscopeIcon} alt="social-image" />
+                            <a href="#">
+                                <img src={facebookIcon} alt="social-image" />
+                            </a>
+                            <a href="#">
+                                <img src={twitterIcon} alt="social-image" />
+                            </a>
+                            <a href="#">
+                                <img src={ytIcon} alt="social-image" />
+                            </a>
+                            <a href="#">
+                                <img src={pinterestIcon} alt="social-image" />
+                            </a>
+                            <a href="#">
+                                <img src={periscopeIcon} alt="social-image" />
+                            </a>
                         </div>
 
                     </div>
