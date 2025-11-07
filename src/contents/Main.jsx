@@ -1,3 +1,5 @@
+import Card from './Card';
+
 const comics = [
     {
         id: 1,
@@ -166,17 +168,8 @@ export default function Main() {
                         <div className="row row-cols-xxl-6 row-cols-lg-4 row-cols-md-3 row-cols-1 gx-4 gy-5 px-3">
 
                             {
-                                comics.map(item => (
-
-                                    <div key={item.id} className="col">
-                                        <div className="card rounded-0 border-0 bg-transparent">
-                                            <img className="card-img-top" src={item.thumb} alt={item.title} />
-                                            <div className="card-body p-0 pt-2">
-                                                <div className="card-title m-0">{item.series}</div>
-                                            </div>
-                                        </div>
-                                    </div>
-
+                                comics.map(comic => (
+                                    <Card key={comic.id} thumb={comic.thumb} alt={comic.title} series={comic.series} />
                                 ))
                             }
 
